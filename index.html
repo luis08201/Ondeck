@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>OnDeck</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <section class="header__main">
+                <a href="#" class="header__main--brand">
+                    <img src="img/Logo.svg" alt="" class="header__main--img">
+                </a>
+                <div class="header__main--btn" id="menuBtn">
+                    <div class="header__main--bar"></div>
+                    <div class="header__main--bar"></div>
+                    <div class="header__main--bar"></div>
+                </div>
+                <nav class="header__nav" id="nav">
+                    <ul class="header__nav--menu">
+                        <li class="header__nav--list">
+                            <a href="#" class="header__nav--link" id="product">product</a>
+                            <div class="header__dropdown" id="dropdown">
+                                <div class="header__dropdown--head">
+                                    <p class="header__dropdown--title">products</p>
+                                    <i class="fa-solid fa-xmark" id="btnClose"></i>
+                                </div>
+                                <div class="header__dropdown--body">
+                                    <div class="header__dropdown--box">
+                                        <figure class="header__dropdown--picture">
+                                            <img src="img/Spense_Icon.svg" alt="spense" class="header__dropdown--img">
+                                        </figure>
+                                        <div class="header__dropdown--description">
+                                            <h5 class="header__dropdown--smallestheading">
+                                                spense
+                                            </h5>
+                                            <p class="header__dropdown--paragraph">
+                                                Spense is a landing page for writers. Great for practicing absolute positioning and flex
+                                                layouts
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="header__dropdown--box">
+                                        <figure class="header__dropdown--picture">
+                                            <img src="img/Fiber_Icon.svg" alt="Fiber" class="header__dropdown--img">
+                                        </figure>
+                                        <div class="header__dropdown--description">
+                                            <h5 class="header__dropdown--smallestheading">
+                                                fiber landing page
+                                            </h5>
+                                            <p class="header__dropdown--paragraph">
+                                                An online portfolio generator. Great to practice flex/grid layouts, and absolute
+                                                positioning.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="header__dropdown--box">
+                                        <figure class="header__dropdown--picture">
+                                            <img src="img/Gradie_Icon.svg" alt="Gradie" class="header__dropdown--img">
+                                        </figure>
+                                        <div class="header__dropdown--description">
+                                            <h5 class="header__dropdown--smallestheading">
+                                                gradie sign up page
+                                            </h5>
+                                            <p class="header__dropdown--paragraph">
+                                                Gradie is a simple sign up page, great to practice centering layouts.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__nav--list">
+                            <a href="#" class="header__nav--link">challenges</a>
+                        </li>
+                        <li class="header__nav--list">
+                            <a href="#" class="header__nav--link">resources</a>
+                        </li>
+                        <li class="header__nav--list">
+                            <a href="#" class="header__nav--link">other links</a>
+                        </li>
+                    </ul>
+                    <ul class="header__nav--sign">
+                        <li class="header__nav--list">
+                            <a href="#" class="header__nav--link">sign in</a>
+                        </li>
+                        <li class="header__nav--list">
+                            <a href="#" class="header__nav--link header__nav--btnprimary">try for free</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="header__navDesktop">
+                    <ul class="header__navDesktop--menu">
+                        <li class="header__navDesktop--list">
+                            <a href="#" class="header__navDesktop--link" id="producto">product</a>
+                            <div class="header__dropdownDesktop" id="dropdownDesktop">
+                                <div class="header__dropdownDesktop--body">
+                                    <div class="header__dropdownDesktop--box">
+                                        <figure class="header__dropdownDesktop--picture">
+                                            <img src="img/Spense_Icon.svg" alt="spense" class="header__dropdownDesktop--img">
+                                        </figure>
+                                        <div class="header__dropdownDesktop--description">
+                                            <h5 class="header__dropdownDesktop--smallestheading">
+                                                spense
+                                            </h5>
+                                            <p class="header__dropdownDesktop--paragraph">
+                                                Spense is a landing page for writers. Great for practicing absolute positioning and flex
+                                                layouts
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="header__dropdownDesktop--box">
+                                        <figure class="header__dropdownDesktop--picture">
+                                            <img src="img/Fiber_Icon.svg" alt="Fiber" class="header__dropdownDesktop--img">
+                                        </figure>
+                                        <div class="header__dropdownDesktop--description">
+                                            <h5 class="header__dropdownDesktop--smallestheading">
+                                                fiber landing page
+                                            </h5>
+                                            <p class="header__dropdownDesktop--paragraph">
+                                                An online portfolio generator. Great to practice flex/grid layouts, and absolute
+                                                positioning.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="header__dropdownDesktop--box">
+                                        <figure class="header__dropdownDesktop--picture">
+                                            <img src="img/Gradie_Icon.svg" alt="Gradie" class="header__dropdownDesktop--img">
+                                        </figure>
+                                        <div class="header__dropdownDesktop--description">
+                                            <h5 class="header__dropdownDesktop--smallestheading">
+                                                gradie sign up page
+                                            </h5>
+                                            <p class="header__dropdownDesktop--paragraph">
+                                                Gradie is a simple sign up page, great to practice centering layouts.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navDesktop--list">
+                            <a href="#" class="header__navDesktop--link">challenges</a>
+                        </li>
+                        <li class="header__navDesktop--list">
+                            <a href="#" class="header__navDesktop--link">resources</a>
+                        </li>
+                        <li class="header__navDesktop--list">
+                            <a href="#" class="header__navDesktop--link">other links</a>
+                        </li>
+                    </ul>
+                    <ul class="header__navDesktop--sign">
+                        <li class="header__navDesktop--list">
+                            <a href="#" class="header__navDesktop--link">sign in</a>
+                        </li>
+                        <li class="header__navDesktop--list">
+                            <a href="#" class="header__navDesktop--link header__navDesktop--btnprimary">try for free</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <section class="home">
+            <article class="home__article">
+                <h1 class="home__article--firstheading">
+                    Ondeck is your <br>remote <span class="home__article--span">conference <br>calling tool</span>
+                </h1>
+                <p class="home__article--paragraph">
+                    Ondeck is a service that allows you to create beautiful, online, and encrypted video calls for you and your remote team.
+                </p>
+                <a href="#" class="home__article--btn">Try for free</a>
+                <div class="home__article--sponsor">
+                    <span>5.0 Rating based on reviews from:</span>
+                    <figure class="home__article--picture">
+                        <img src="img/Capterra Logo.svg" alt="capterra" class="home__article--img">
+                    </figure>
+                    <figure class="home__article--picture">
+                        <img src="img/AlternativeTo Logo.svg" alt="alternativeTO" class="home__article--img">
+                    </figure>
+                    <figure class="home__article--picture">
+                        <i class="fa-brands fa-shopify"></i>
+                    </figure>
+                </div>
+            </article>
+            <figure class="home__picture">
+                <img src="img/Hero-Image.png" alt="" class="home__img">
+            </figure>
+        </section>
+        <section class="sponsor">
+            <div class="sponsor__head">
+                <p class="sponsor__head--paragraph">Trusted by 3+ million people at companies like</p>
+            </div>
+            <div class="sponsor__body">
+                <figure class="sponsor__picture">
+                    <img src="img/Netflix Logo.svg" alt="" class="sponsor__img">
+                </figure>
+                <figure class="sponsor__picture">
+                    <img src="img/Shopify Logo.svg" alt="" class="sponsor__img">
+                </figure>
+                <figure class="sponsor__picture">
+                    <img src="img/Spotify Logo.svg" alt="" class="sponsor__img">
+                </figure>
+                <figure class="sponsor__picture">
+                    <img src="img/Walmart Logo.svg" alt="" class="sponsor__img">
+                </figure>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/menu.js"></script>
+</body>
+</html>
